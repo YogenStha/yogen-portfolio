@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>personal portfolio</title>
+    <!--css stylesheet link-->
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <!--box icon link-->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+    <!--google fornt link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dosis:wght@500;600;700;800&family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo"><img src="yogen logo.png" /></a>
+      <div class="bx bx-menu" id="menu-icon"></div>
+      <ul class="navlist">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#service">Services</a></li>
+      
+        <li><a href="#contact">contact</a></li>
+      </ul>
+    </header>
+
+    <section class="home" id="home">
+      <div class="text">
+        <h3>Hello I'm</h3>
+        <h1>Yogen Shrestha</h1>
+        <h4>Web developer - CS Student</h4>
+        <a href="#" class="btn">My Works</a>
+      </div>
+      <div class="image-container">
+        <img src="yogenstha.jpg" alt="my photo" width="400px" height="510px" />
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="yogen.png" height="200" width="200" />
+      </div>
+      <div class="about-text">
+        <h2>About Me</h2>
+        <h5>I am <span> Software Developer</span></h5>
+        <p>
+          Hello! I'm a passionate web developer with a keen interest in creating
+          intuitive and engaging web experiences. Currently, I'm pursuing my
+          studies as a computer science student, which has allowed me to deepen
+          my understanding of technology and innovation. In addition to my
+          academic pursuits, I am proud to serve as an executive member of the
+          MMC CSIT Association, where I contribute to the growth and development
+          of our tech community. I'm also the CEO of Fuse Innovation, a venture
+          focused on driving creative solutions and pushing the boundaries of
+          what's possible in the digital space.
+        </p>
+        <a href="#" class="btn">Hire me</a>
+      </div>
+    </section>
+
+    <section class="service" id="service">
+      <div class="text-center">
+        <h2>My Services</h2>
+        <h4>we work with you, not for you</h4>
+      </div>
+      <div class="service-item">
+        <div class="service-box">
+          <i class="bx bx-mobile-alt"></i>
+          <h3>Web Design</h3>
+          <p>
+            I specialize in creating visually appealing, responsive websites
+            using HTML5, CSS3, JavaScript, and frameworks like Bootstrap and
+            Tailwind. I build fast, dynamic sites with SEO-friendly structures
+            and WordPress integration to drive conversions and business growth.
+          </p>
+          <a herf="#" class="s-btnn">Read More</a>
+        </div>
+
+        <div class="service-box">
+          <i class="bx bx-code-alt"></i>
+          <h3>Web Development</h3>
+          <p>
+            I offer web development services that turn innovative ideas into
+            functional websites. With expertise in front-end and back-end
+            technologies like HTML5, CSS3, JavaScript, React, and Node.js, I
+            build secure, scalable solutions tailored to your business goals and
+            user experience.
+          </p>
+          <a herf="#" class="s-btnn">Read More</a>
+        </div>
+
+        <div class="service-box">
+          <i class="bx bx-signal-5"></i>
+          <h3>Network</h3>
+          <p>
+            I provide expert network solutions to enhance connectivity,
+            security, and efficiency. My services include designing and
+            implementing network infrastructures, configuring routers and
+            firewalls, and optimizing performance. I ensure your network is
+            secure, scalable, and reliable, with ongoing support for smooth
+            operation and business growth.
+          </p>
+          <a herf="#" class="s-btnn">Read More</a>
+        </div>
+      </div>
+    </section>
+
+   <!-- contact section -->
+    <section class="end-section" id="contact">
+      <h3>GET NI TOUCH</h3>
+      <p>
+        "Have a project in mind or need assistance? Reach out to me today, and
+        let's explore how we can collaborate to make it a success."
+      </p>
+      <div class="contact-form">
+        <h2>Contact Me</h2>
+        <form id="contactForm" onsubmit="sendEmail(); reset(); return false;">
+          <input type="text" id="name" placeholder="Name" required />
+          <input type="email" id="email" placeholder="Email" required />
+          <textarea id="message" placeholder="Message" required></textarea>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+      <div class="end-icons">
+        <a href="https://www.facebook.com/profile.php?id=100008840147042"
+          ><i class="bx bxl-facebook-circle"></i
+        ></a>
+        <a href="https://www.instagram.com/shrestha_yogen22/"
+          ><i class="bx bxl-instagram"></i
+        ></a>
+        <a href="https://www.linkedin.com/in/yogenshrestha/"
+          ><i class="bx bxl-linkedin"></i
+        ></a>
+        <a href="#"><i class="bx bxl-whatsapp"></i></a>
+      </div>
+    </section>
+
+    <a href="#" class="scroll-bttn"><i class="bx bx-chevron-up"></i></a>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>
